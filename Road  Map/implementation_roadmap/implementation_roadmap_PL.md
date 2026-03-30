@@ -10,6 +10,36 @@
 
 Zwięzły przegląd planu wdrożenia wieloagentowego rozwiązania AI dla bankowości detalicznej opartego na Microsoft Foundry (Azure AI Foundry). Sekcja przedstawia ogólne podejście, kluczowe kamienie milowe, zaangażowanie zasobów oraz oczekiwany zwrot z inwestycji — umożliwiając interesariuszom na poziomie zarządczym szybkie zrozumienie zakresu, tempa i profilu finansowego inicjatywy.
 
+### 1.1 Opis banku i analiza sytuacji
+
+Podrozdział definiuje kontekst biznesowy i operacyjny banku detalicznego, który uzasadnia wdrożenie rozwiązania AI. Łączy perspektywę rynkową z celami na 12 miesięcy oraz wskazuje luki pomiędzy stanem obecnym i docelowym.
+
+#### 1.1.1 Kontekst rynkowy i model
+
+Rynek bankowości detalicznej charakteryzuje się rosnącym popytem na obsługę cyfrową, personalizację ofert oraz skrócenie czasu realizacji procesów (w szczególności kredytowych). Konkurencja obejmuje zarówno banki tradycyjne modernizujące kanały online, jak i fintechy oferujące szybkie, niskotarciowe doświadczenie użytkownika.
+
+Kanały obsługi i sprzedaży obejmują aplikację mobilną, bankowość internetową, contact center oraz oddziały. Docelowa propozycja wartości opiera się na połączeniu zaufania instytucji bankowej z szybkością i trafnością rekomendacji wspieranych przez AI.
+
+Model przychodowy obejmuje przychody odsetkowe, prowizyjne i sprzedaż produktów dodatkowych (cross-sell/up-sell). Kluczowe koszty operacyjne to obsługa klienta, przetwarzanie procesów kredytowych, utrzymanie systemów IT oraz koszty zgodności i zarządzania ryzykiem.
+
+#### 1.1.2 Cele OKR/SMART na 12 miesięcy
+
+Najważniejsze cele obejmują wzrost, retencję i efektywność operacyjną. Cele mają charakter SMART i są przypisane do właścicieli biznesowych oraz technicznych.
+
+| Obszar | Cel (OKR/SMART) | Wskaźnik (KR/KPI) | Właściciel | Termin |
+|-------|------------------|-------------------|-----------|--------|
+| Wzrost | Zwiększyć sprzedaż produktów dodatkowych dzięki rekomendacjom AI | +12 % konwersji cross-sell vs. baseline | Product Owner + Lider sprzedaży | Koniec miesiąca 12 |
+| Retencja | Poprawić utrzymanie klientów aktywnych cyfrowo | -8 % churn w segmencie cyfrowym | Dyrektor bankowości cyfrowej | Koniec miesiąca 12 |
+| Efektywność | Skrócić czas obsługi zapytań produktowych i procesów kredytowych | -30 % średniego czasu obsługi; -25 % czasu cyklu wniosku | Kierownik operacji + Inżynier ML | Koniec miesiąca 12 |
+
+#### 1.1.3 Wyzwanie i okazja
+
+Analiza stanu obecnego (as-is) wskazuje na fragmentację danych, wysoki udział czynności manualnych oraz niespójność doświadczenia klienta pomiędzy kanałami. Stan docelowy (to-be) zakłada zintegrowane, wieloagentowe wsparcie procesów z centralnym orkiestratorem, automatyczną klasyfikacją intencji i kontrolowanym przepływem HITL dla przypadków wysokiego ryzyka.
+
+Kluczowe luki obejmują: ograniczoną personalizację ofert, długi czas przetwarzania dokumentów oraz niewystarczającą obserwowalność jakości odpowiedzi modeli. Priorytety zmian koncentrują się na uruchomieniu szybkich wygranych (automatyzacja najczęstszych zapytań, wstępna rekomendacja produktów, OCR dokumentów kredytowych), a następnie na skalowaniu funkcji o najwyższej wartości biznesowej.
+
+Oczekiwane efekty to poprawa doświadczenia klienta, wzrost produktywności zespołów operacyjnych oraz większa przewidywalność kosztów i jakości dzięki metrykom monitorowanym end-to-end.
+
 ---
 
 ## 2. Etapy wdrożenia
